@@ -35,7 +35,7 @@ public class PlanController {
    * 构造函数
    */
   public PlanController() {
-    System.out.println(11);
+    LOG.info("controller loaded");
   }
 
   @Autowired
